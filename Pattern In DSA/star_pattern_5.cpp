@@ -10,7 +10,7 @@ int main()
         {
             cout << " ";
         }
-        for (int f = 0; f < 2 *n-2*i + 1; f++)
+        for (int f = 0; f < 2 *n-(2*i + 1); f++)
         {
             cout << "*";
         }
@@ -20,5 +20,6 @@ int main()
         }
         cout << "\n";
     }
+    
     return 0;
 }
